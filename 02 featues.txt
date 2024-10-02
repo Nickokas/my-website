@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Virtual Home Design Assistant</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Features of Our Virtual Home Design Assistant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="feature-section">
+            <h2>Key Features</h2>
+            <article class="feature-item">
+                <h3>AI-Powered Design Suggestions</h3>
+                <p>Utilize cutting-edge AI algorithms that analyze your style preferences and provide personalized design suggestions.</p>
+            </article>
+            <article class="feature-item">
+                <h3>3D Visualization Tools</h3>
+                <p>Visualize your home design in a 3D environment, helping you understand how different elements fit together.</p>
+            </article>
+            <article class="feature-item">
+                <h3>Drag and Drop Interface</h3>
+                <p>Easily customize your living space with an intuitive drag-and-drop interface, making the design process seamless.</p>
+            </article>
+            <article class="feature-item">
+                <h3>Material and Color Picker</h3>
+                <p>Choose from a wide array of materials and colors to create a space that truly reflects your style.</p>
+            </article>
+            <article class="feature-item">
+                <h3>Save and Share Designs</h3>
+                <p>Save your designs for later or share them with friends and family for feedback before making any decisions.</p>
+            </article>
+            <article class="feature-item">
+                <h3>Real-Time Collaboration</h3>
+                <p>Work together with family or friends in real-time, allowing for collaborative design sessions.</p>
+            </article>
+        </section>
+        <section class="cta-section">
+            <h2>Ready to Transform Your Space?</h2>
+            <p>Join us today and start designing your dream home with the help of our virtual assistant!</p>
+            <button onclick="location.href='pricing.html'">View Pricing Plans</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Virtual Home Design Assistant</p>
+    </footer>
+</body>

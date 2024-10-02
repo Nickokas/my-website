@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text color for readability */
+}
+
+header {
+    background: #35424a; /* Dark header background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Center the text */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold links */
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Darker text for headings */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Padding for main content */
+}
+
+.feature-section {
+    margin-bottom: 30px; /* Margin below the features section */
+}
+
+.feature-item {
+    background: #ffffff; /* White background for feature items */
+    border: 1px solid #ddd; /* Light border around items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside the items */
+    margin-bottom: 15px; /* Spacing between items */
+}
+
+.cta-section {
+    text-align: center; /* Center text in call to action section */
+    margin: 40px 0; /* Margin for spacing */
+}
+
+button {
+    background-color: #35424a; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+button:hover {
+    background-color: #2c3e50; /* Darker background on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 20px 0; /* Padding for spacing */
+    background: #35424a; /* Dark footer background */
+    color: #ffffff; /* White footer text */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}/* Contact Section Styles */
+.contact-section {
+    max-width: 600px; /* Max width for the contact section */
+    margin: 20px auto; /* Center the section */
+    padding: 20px; /* Padding for spacing */
+    background: #ffffff; /* White background for the form */
+    border: 1px solid #ddd; /* Light border around the form */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.contact-section h2 {
+    color: #2c3e50; /* Darker color for the heading */
+}
+
+.contact-section p {
+    margin-bottom: 20px; /* Spacing below the paragraph */
+}
+
+/* Form Styles */
+form {
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column; /* Stack form elements */
+}
+
+label {
+    margin-bottom: 5px; /* Spacing below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Spacing below input fields */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input fields */
+}
+
+button {
+    background-color: #35424a; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+button:hover {
+    background-color: #2c3e50; /* Darker background on hover */
+}
